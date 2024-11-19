@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">IntentAct</string>
+    <string name="move_activity">Explicit Intent</string>
+    <string name="move_with_data">Move Activity With Data</string>
+    <string name="move_with_object">Move Activity With Object</string>
+    <string name="dial_number">Implicit Intent (Dial)</string>
+    <string name="move_with_result">Fetch Data in Activity</string>
+    <string name="result_from_activity">Value Result: </string>
+    <string name="choose_number">Choose Number Value</string>
+    <string name="_50">629</string>
+    <string name="_100">893</string>
+    <string name="_150">445</string>
+    <string name="_200">996</string>
+    <string name="choose">Submit Value</string>
+    <string name="data_received">Data</string>
+    <string name="object_received">Object</string>
+    <string name="this_is_moveactivity">Explicit Intent</string>
+    <string name="title">Intent Activity</string>
+    <string name="title_description">An Intent is a messaging object you can use to request an action from another app component, such as starting an activity. It\'s a way for different parts of your app (or even different apps) to communicate and work together.</string>
+    <string name="this_is_moveactivity_description">An explicit intent is a type of intent in Android that directly specifies the target component (Activity, Service, or Broadcast Receiver) that should be invoked.</string>
+    <string name="data_received_details">In Android, we often need to pass data between activities. This is where explicit intents come in handy</string>
+    <string name="data_received_title">Activity with Data: Passing Data Between Activities</string>
+    <string name="object_received_title">Activities and Objects in Android: A Deep Dive</string>
+    <string name="object_received_description">In Android, an Activity is a single, focused thing that the user can do. It represents a single screen with a user interface. When you launch an app, you\'re typically launching an Activity.</string>
+    <string name="for_result_title">Activity for Result</string>
+    <string name="for_result_description">In Android, startActivityForResult() is a method used to start an Activity and receive a result back. This is useful for scenarios where you want to initiate an action in a separate Activity and then get a result back to the original Activity.</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="24dp"
+    tools:context=".MoveActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="36sp"
+        android:lineSpacingMultiplier="1"
+        android:fontFamily="sans-serif"
+        android:textColor="#FBFFFC"
+        android:text="@string/this_is_moveactivity" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/this_is_moveactivity_description"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FBFFFC"
+        android:lineSpacingMultiplier="1.2" />
+
+</LinearLayout>

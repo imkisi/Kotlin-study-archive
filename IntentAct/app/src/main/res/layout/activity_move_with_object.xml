@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="24dp"
+    tools:context=".MoveWithObjectActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="36sp"
+        android:lineSpacingMultiplier="1"
+        android:fontFamily="sans-serif"
+        android:textColor="#FBFFFC"
+        android:text="@string/object_received_title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FBFFFC"
+        android:text="@string/object_received_description"/>
+
+    <TextView
+        android:id="@+id/tv_object_received"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="28sp"
+        android:lineSpacingMultiplier="1"
+        android:fontFamily="sans-serif"
+        android:text="@string/object_received" />
+
+</LinearLayout>
