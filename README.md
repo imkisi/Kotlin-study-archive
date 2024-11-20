@@ -4,7 +4,7 @@
 
 ## Overview
 
-This Android app serves as a practical learning experience designed to complement your studies in the IDCamp program (https://idcamp.ioh.co.id). It delves into fundamental Android development concepts, particularly focusing on various intent types in Kotlin using Jetpack Compose.
+This Android app serves as a practical learning experience designed to complement studies in the IDCamp program (https://idcamp.ioh.co.id). It delves into fundamental Android development concepts, particularly focusing on various intent types in Kotlin using Jetpack Compose.
 
 ## Features
 
