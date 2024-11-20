@@ -1,6 +1,6 @@
 # Kotlin-study-archive
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/imkisi/Kotlin-study-archive)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/imkisi/Kotlin-study-archive.git)
 
 ## Overview
 
