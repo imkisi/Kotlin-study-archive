@@ -1,6 +1,6 @@
 # Kotlin study archive
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/imkisi/Kotlin-study-archive.git)
+[![CI](https://github.com/imkisi/Kotlin-study-archive/actions/workflows/blank.yml/badge.svg)](https://github.com/imkisi/Kotlin-study-archive/actions/workflows/blank.yml)
 
 ## Overview
 Some simple Android projects aimed at further exploration of Android. This repository learns the basic concepts of Android development in Kotlin using Jetpack Compose.
