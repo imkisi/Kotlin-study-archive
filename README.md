@@ -17,7 +17,7 @@ Some simple Android projects aimed at further exploration of Android. This repos
 
 - **IntentAct**
 	> This Android app demonstrates various **intent** types in Kotlin using Jetpack Compose.
-	> ![preview intent](/Screenshot/intentact.jpg "IntentAct")
+	> <img src="/Screenshot/intentact.jpg" alt="Intent preview" style="width:300px;"/>
 - **Product Page**
 	> Soon
 	> *screenshot
