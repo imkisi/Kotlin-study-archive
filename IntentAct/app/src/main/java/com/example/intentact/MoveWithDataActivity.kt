@@ -5,6 +5,7 @@ import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
+import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MoveWithDataActivity : AppCompatActivity() {
@@ -23,6 +24,10 @@ class MoveWithDataActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        WindowCompat.getInsetsController(window, window.decorView)
+            .isAppearanceLightStatusBars = false
+
         val tvDataReceived: TextView = findViewById(R.id.tv_data_received)
 
         val name = intent.getStringExtra(EXTRA_NAME)
