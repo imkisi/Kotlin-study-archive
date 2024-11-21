@@ -1,32 +1,28 @@
-# Kotlin-study-archive
+# Kotlin study archive
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/imkisi/Kotlin-study-archive.git)
 
 ## Overview
-
-This Android app serves as a practical learning experience designed to complement studies in the IDCamp program (https://idcamp.ioh.co.id). It delves into fundamental Android development concepts, particularly focusing on various intent types in Kotlin using Jetpack Compose.
-
-## Features
-
-- User-friendly interface: Intuitive design for easy navigation.
-- Clear code structure: Well-organized code for easy understanding and modification.
+Some simple Android projects aimed at further exploration of Android. This repository learns the basic concepts of Android development in Kotlin using Jetpack Compose.
 
 ## How to Use
+* Clone the repository
+	```sh
+	https://github.com/imkisi/Kotlin-study-archive.git
+	```
+* Open in Android Studio: Open the project in Android Studio.
+* Run the App: Build and run the app on an emulator or physical device.
 
-Clone the repository
-```sh
-https://github.com/imkisi/Kotlin-study-archive.git
-```
-Open in Android Studio: Open the project in Android Studio.
-Run the App: Build and run the app on an emulator or physical device.
+## Project
 
-## Dependencies
-
-- Jetpack Compose: For building the UI.
-- AndroidX Core: For essential Android libraries.
+- **IntentAct**
+	> This Android app demonstrates various **intent** types in Kotlin using Jetpack Compose.
+	> *screenshot
+- **Product Page**
+	> Soon
+	> *screenshot
 
 ## Contributions
-
 Contributions to this project are welcome. Please feel free to fork the repository and submit pull requests.
 
 ## License
