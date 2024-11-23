@@ -20,7 +20,7 @@ Some simple Android projects aimed at further exploration of Android. This repos
 	> <img src="/Screenshot/intentact.jpg" alt="Intent preview" style="width:300px;"/>
 - **Product Page**
 	> Soon
-	> *screenshot
+	> <img src="/Screenshot/productPage.jpg" alt="Product preview" style="width:300px;"/>
 
 ## Contributions
 Contributions to this project are welcome. Please feel free to fork the repository and submit pull requests.
