@@ -19,7 +19,7 @@ Some simple Android projects aimed at further exploration of Android. This repos
 	> This Android app demonstrates various **intent** types in Kotlin using Jetpack Compose.
 	> <img src="/Screenshot/intentact.jpg" alt="Intent preview" style="width:300px;"/>
 - **Product Page**
-	> Soon
+	> Product detail page with modern minimalist ui
 	> <img src="/Screenshot/productpage.jpg" alt="Product preview" style="width:300px;"/>
 
 ## Contributions
