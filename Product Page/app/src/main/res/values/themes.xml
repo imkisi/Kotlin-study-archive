@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ProductPage" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowBackground">#FBFFFC</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorOnPrimary">#757575</item>
+    </style>
+
+    <style name="Theme.ProductPage" parent="Base.Theme.ProductPage" />
+
+    <style name="productImg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="RoundedImageViewShape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">28dp</item>
+    </style>
+
+    <style name="primaryBtn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:backgroundTint">#2A4DE8</item>
+    </style>
+    
+    <style name="Heading1">
+        <item name="android:textSize">64sp</item>
+        <item name="android:lineSpacingMultiplier">0.8</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <style name="Heading2">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <style name="Heading3">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <style name="Heading4">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+
+    <style name="CircularImageViewShape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

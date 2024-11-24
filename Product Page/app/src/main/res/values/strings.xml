@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Product Page</string>
+    <string name="content_text">Less distractions. More soul. Just pure instinct, formed as a machine. Told through beautiful symbols. Deeper interactions. And brave simplicity</string>
+    <string name="content_specs_body">193.5g 159.2 x 75.8 x 8.3 mm, Glass front (Gorilla Glass 5), glass back (Gorilla Glass 5), aluminum frame, IP53 - splash, water and dust resistant
+    </string>
+    <string name="content_specs_camera">50 MP Dual (back), OIS, EIS, 4K@30fps, 16 MP (front), 1080p@30fps
+    </string>
+    <string name="content_specs_display">6,55 inch FHD 1080 x 2400 OLED, 1B colors, 120Hz, HDR10+, 500 nits (typ), 1200 nits (peak)
+    </string>
+    <string name="content_specs_performance">Qualcomm SM7325-AE Snapdragon 778G+ 5G, 128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, Li-Ion 4500 mAh, 33W wired, PD3.0, QC4, 15W wireless, 5W reverse wireless
+    </string>
+    <string name="productName">Nothing Phone - 1</string>
+    <string name="specification">Specification</string>
+    <string name="body">Body</string>
+    <string name="camera">Camera</string>
+    <string name="display">Display</string>
+    <string name="performance">Performance</string>
+    <string name="seller">Nothing Official</string>
+    <string name="buy">Buy now</string>
+    <string name="productPrice">Start From $535</string>
+    <string name="sellerAddress">London</string>
+</resources>
