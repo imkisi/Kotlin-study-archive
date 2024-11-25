@@ -16,11 +16,14 @@ Some simple Android projects aimed at further exploration of Android. This repos
 ## Project
 
 - **IntentAct**
-	> This Android app demonstrates various **intent** types in Kotlin using Jetpack Compose.
+	> This Android app demonstrates various *intent* types in Kotlin using Jetpack Compose.
 	> <img src="/Screenshot/intentact.jpg" alt="Intent preview" style="width:300px;"/>
 - **Product Page**
-	> Product detail page with modern minimalist ui
+	> Product detail page with modern minimalist ui using *ScrollView* and *ConstrainLAyout*.
 	> <img src="/Screenshot/productpage.jpg" alt="Product preview" style="width:300px;"/>
+ - **Biography**
+	> Biography of Indonesia national hero with grid and list *RecyclerView*. 
+	> Soon
 
 ## Contributions
 Contributions to this project are welcome. Please feel free to fork the repository and submit pull requests.
