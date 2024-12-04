@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LoneTrail" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowBackground">@drawable/light_background</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="H1">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#F7F7E6</item>
+        <item name="fontFamily">sans-serif-black</item>
+    </style>
+    <style name="H2">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#F7F7E6</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="H3">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Theme.LoneTrail" parent="Base.Theme.LoneTrail" />
+</resources>
