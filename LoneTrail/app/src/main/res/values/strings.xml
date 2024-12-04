@@ -3,6 +3,17 @@
     <string name="overview">Overview</string>
     <string name="details">The exploration of space will go ahead, whether we join in it or not, and it is one of the great adventures of all time, and no nation which expects to be the leader of other nations can expect to stay behind in the race for space.</string>
     <string name="subtitle">Table of Content</string>
+    <string name="creator_title">The Name</string>
+    <string name="creator_name">Bagas</string>
+    <string name="creator_pen_name">{ KiSI }</string>
+    <string name="about">About</string>
+    <string name="about_details">I am Bagas Dwi Anggoro aka KiSI, a computer science student who is interested in challenging myself to gain new knowledge and develop my creativity in a fun way in the field of Illustration, Front-End, Motion, and Visual design</string>
+    <string name="dicoding">Dicoding Account</string>
+    <string name="d_mail">Email</string>
+    <string name="d_mail_value">bagasd811@gmail.com</string>
+    <string name="d_user">User</string>
+    <string name="d_user_value">Bagas Dwi Anggoro</string>
+    <string name="links">External Links</string>
 
     <string name="title">Content Title</string>
     <string-array name="data_name">
