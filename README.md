@@ -21,9 +21,12 @@ Some simple Android projects aimed at further exploration of Android. This repos
 - **Product Page**
 	> Product detail page with modern minimalist ui using *ScrollView* and *ConstrainLAyout*.
 	> <img src="/Screenshot/productpage.jpg" alt="Product preview" style="width:300px;"/>
- - **Biography**
+- **Biography**
 	> Biography of Indonesia national hero with grid and list *RecyclerView*. 
 	> Soon
+- **LoneTrail**
+	> Full functionally app about *Arknights* event, build with combined *RecyclerView*, *NestedScrollLayout*, *TableLayout*, and *ConstraintLayout*. 
+	> <img src="/Screenshot/lonetrail.png" alt="LoneTrail" style="height:300px;"/>
 
 ## Contributions
 Contributions to this project are welcome. Please feel free to fork the repository and submit pull requests.
