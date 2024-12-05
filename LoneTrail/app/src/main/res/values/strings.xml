@@ -11,9 +11,33 @@
     <string name="dicoding">Dicoding Account</string>
     <string name="d_mail">Email</string>
     <string name="d_mail_value">bagasd811@gmail.com</string>
-    <string name="d_user">User</string>
+    <string name="d_user">Username</string>
     <string name="d_user_value">Bagas Dwi Anggoro</string>
-    <string name="links">External Links</string>
+    <string name="links">Get in Touch</string>
+    <string name="ref">Reference</string>
+    <string name="ref_one">https://www.arknights.global/</string>
+    <string name="ref_two">https://arknights.fandom.com/wiki/Lone_Trail</string>
+
+    <string name="a_one">Archive 01.</string>
+    <string name="a_two">Archive 02.</string>
+    <string name="a_three">Archive 03.</string>
+    <string name="a_four">Archive 04.</string>
+    <string name="a_five">Archive 05.</string>
+    <string name="a_six">Archive 06.</string>
+    <string name="a_seven">Archive 07.</string>
+    <string name="a_eight">Archive 08.</string>
+    <string name="a_nine">Archive 09.</string>
+    <string name="a_ten">Archive 10.</string>
+
+    <string name="s_one">Ad Astra</string>
+    <string name="s_two">Control\'s Wishes</string>
+    <string name="s_three">The Coming of\nthe Future</string>
+    <string name="s_four">The Sky of\nTrimounts</string>
+    <string name="s_five">When the Stars\nGaze Upon Me</string>
+
+    <string name="c_one">Steven Grove</string>
+    <string name="c_two">一罐鹽</string>
+    <string name="c_three">Eagle Wei</string>
 
     <string name="title">Content Title</string>
     <string-array name="data_name">
@@ -26,7 +50,7 @@
         <item>Goodnight Terra</item>
         <item>Truth For Loners</item>
         <item>Sweat Dream</item>
-        <item>OST</item>
+        <item>Soundtracks</item>
     </string-array>
     <string-array name="data_photos">
         <item>@drawable/a_thousand_suns</item>
@@ -52,5 +76,6 @@
     <string name="d9">Days after the \"Trimounts Arc,\" R.L. has to reorganize its structure due to Kristen gone \"missing,\" Parvis\' death, and Jara\'s official retirement. Despite the difficulties ahead, the future of R.L. will definitely shine bright. Ferdinand was pardoned by R.L. for his wrongdoings in the past, and he proceeded to spread his knowledge regarding the Terran sky to the science community. Saria succeeded Kristen\'s position as R.L.\'s next Control with Silence being her secretary. Most importantly, Silence published the \"Trimounts\' Joint Declaration of Scientific Ethics,\" and she hoped that it would set a standard for ethics of the science community and prevent disasters and wrongdoings of the past from repeating.</string>
     <string name="d10">Description</string>
     <string name="user">user</string>
+    <string name="share">share</string>
 
 </resources>

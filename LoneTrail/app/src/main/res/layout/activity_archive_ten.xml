@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArchiveTen">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="11dp"
+        android:background="@color/android:transparent">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:paddingTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:backgroundTint="@color/android:transparent"
+            android:src="@drawable/back"/>
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="55dp"
+            android:src="@drawable/app_logo"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="65dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="22dp">
+
+            <TextView
+                style="@style/H2"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_ten"/>
+
+            <TextView
+                style="@style/H1"
+                android:id="@+id/archive_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                tools:text="@string/title"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="17dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="5dp"
+                    android:background="#992E26"
+                    android:layout_gravity="center_horizontal"/>
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="5dp"
+                    android:background="#EBA93E"
+                    android:layout_gravity="center_horizontal"/>
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="5dp"
+                    android:background="#87C0AF"
+                    android:layout_gravity="center_horizontal"/>
+
+            </LinearLayout>
+            
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_marginBottom="25dp">
+                
+                <ImageView
+                    android:id="@+id/cover"
+                    tools:ignore="DuplicateIds"
+                    android:layout_width="171dp"
+                    android:layout_height="124dp"
+                    android:paddingEnd="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/album"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/linked"
+                    tools:ignore="DuplicateIds"
+                    android:layout_width="46dp"
+                    android:layout_height="54dp"
+                    android:backgroundTint="#101010"
+                    android:layout_marginEnd="6dp"
+                    app:icon="@drawable/arrow_circle"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="24dp"
+                    app:layout_constraintStart_toEndOf="@id/cover"
+                    app:layout_constraintTop_toTopOf="parent"
+                    style="?attr/materialButtonStyle" />
+
+                <TextView
+                    android:id="@+id/s_title"
+                    tools:ignore="DuplicateIds"
+                    style="@style/H2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/cover"
+                    app:layout_constraintBottom_toTopOf="@+id/s_creator"
+                    android:text="@string/s_one"/>
+
+                <TextView
+                    android:id="@+id/s_creator"
+                    tools:ignore="DuplicateIds"
+                    style="@style/H3"
+                    android:textColor="#A3A397"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/cover"
+                    app:layout_constraintBottom_toBottomOf="@+id/cover"
+                    android:text="@string/c_one"/>
+
+                <View
+                    android:id="@+id/lines"
+                    tools:ignore="DuplicateIds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:background="#BDBDBD"/>
+                
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_marginBottom="25dp">
+
+                <ImageView
+                    android:id="@+id/cover"
+                    tools:ignore="DuplicateIds"
+                    android:layout_width="171dp"
+                    android:layout_height="124dp"
+                    android:paddingEnd="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/album"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/linked"
+                    tools:ignore="DuplicateIds"
+                    android:layout_width="46dp"
+                    android:layout_height="54dp"
+                    android:backgroundTint="#101010"
+                    android:layout_marginEnd="6dp"
+                    app:icon="@drawable/arrow_circle"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="24dp"
+                    app:layout_constraintStart_toEndOf="@id/cover"
+                    app:layout_constraintTop_toTopOf="parent"
+                    style="?attr/materialButtonStyle" />
+
+                <TextView
+                    android:id="@+id/s_title"
+                    tools:ignore="DuplicateIds"
+                    style="@style/H2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/cover"
+                    app:layout_constraintBottom_toTopOf="@+id/s_creator"
+                    android:text="@string/s_two"/>
+
+                <TextView
+                    android:id="@+id/s_creator"
+                    tools:ignore="DuplicateIds"
+                    style="@style/H3"
+                    android:textColor="#A3A397"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/cover"
+                    app:layout_constraintBottom_toBottomOf="@+id/cover"
+                    android:text="@string/c_one"/>
+
+                <View
+                    android:id="@+id/lines"
+                    tools:ignore="DuplicateIds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:background="#BDBDBD"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_marginBottom="25dp">
+
+                <ImageView
+                    android:id="@+id/cover"
+                    tools:ignore="DuplicateIds"
+                    android:layout_width="171dp"
+                    android:layout_height="124dp"
+                    android:paddingEnd="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/album"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/linked"
+                    tools:ignore="DuplicateIds"
+                    android:layout_width="46dp"
+                    android:layout_height="54dp"
+                    android:backgroundTint="#101010"
+                    android:layout_marginEnd="6dp"
+                    app:icon="@drawable/arrow_circle"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="24dp"
+                    app:layout_constraintStart_toEndOf="@id/cover"
+                    app:layout_constraintTop_toTopOf="parent"
+                    style="?attr/materialButtonStyle" />
+
+                <TextView
+                    android:id="@+id/s_title"
+                    tools:ignore="DuplicateIds"
+                    style="@style/H2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/cover"
+                    app:layout_constraintBottom_toTopOf="@+id/s_creator"
+                    android:text="@string/s_three"/>
+
+                <TextView
+                    android:id="@+id/s_creator"
+                    tools:ignore="DuplicateIds"
+                    style="@style/H3"
+                    android:textColor="#A3A397"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/cover"
+                    app:layout_constraintBottom_toBottomOf="@+id/cover"
+                    android:text="@string/c_one"/>
+
+                <View
+                    android:id="@+id/lines"
+                    tools:ignore="DuplicateIds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:background="#BDBDBD"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_marginBottom="25dp">
+
+                <ImageView
+                    android:id="@+id/cover"
+                    tools:ignore="DuplicateIds"
+                    android:layout_width="171dp"
+                    android:layout_height="124dp"
+                    android:paddingEnd="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/album"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/linked"
+                    tools:ignore="DuplicateIds"
+                    android:layout_width="46dp"
+                    android:layout_height="54dp"
+                    android:backgroundTint="#101010"
+                    android:layout_marginEnd="6dp"
+                    app:icon="@drawable/arrow_circle"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="24dp"
+                    app:layout_constraintStart_toEndOf="@id/cover"
+                    app:layout_constraintTop_toTopOf="parent"
+                    style="?attr/materialButtonStyle" />
+
+                <TextView
+                    android:id="@+id/s_title"
+                    tools:ignore="DuplicateIds"
+                    style="@style/H2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/cover"
+                    app:layout_constraintBottom_toTopOf="@+id/s_creator"
+                    android:text="@string/s_four"/>
+
+                <TextView
+                    android:id="@+id/s_creator"
+                    tools:ignore="DuplicateIds"
+                    style="@style/H3"
+                    android:textColor="#A3A397"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/cover"
+                    app:layout_constraintBottom_toBottomOf="@+id/cover"
+                    android:text="@string/c_two"/>
+
+                <View
+                    android:id="@+id/lines"
+                    tools:ignore="DuplicateIds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:background="#BDBDBD"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_marginBottom="25dp">
+
+                <ImageView
+                    android:id="@+id/cover"
+                    tools:ignore="DuplicateIds"
+                    android:layout_width="171dp"
+                    android:layout_height="124dp"
+                    android:paddingEnd="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/album"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/linked"
+                    tools:ignore="DuplicateIds"
+                    android:layout_width="46dp"
+                    android:layout_height="54dp"
+                    android:backgroundTint="#101010"
+                    android:layout_marginEnd="6dp"
+                    app:icon="@drawable/arrow_circle"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="24dp"
+                    app:layout_constraintStart_toEndOf="@id/cover"
+                    app:layout_constraintTop_toTopOf="parent"
+                    style="?attr/materialButtonStyle" />
+
+                <TextView
+                    android:id="@+id/s_title"
+                    tools:ignore="DuplicateIds"
+                    style="@style/H2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/cover"
+                    app:layout_constraintBottom_toTopOf="@+id/s_creator"
+                    android:text="@string/s_five"/>
+
+                <TextView
+                    android:id="@+id/s_creator"
+                    tools:ignore="DuplicateIds"
+                    style="@style/H3"
+                    android:textColor="#A3A397"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/cover"
+                    app:layout_constraintBottom_toBottomOf="@+id/cover"
+                    android:text="@string/c_three"/>
+
+                <View
+                    android:id="@+id/lines"
+                    tools:ignore="DuplicateIds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:background="#BDBDBD"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

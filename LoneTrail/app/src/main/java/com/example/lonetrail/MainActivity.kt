@@ -12,8 +12,6 @@ import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.biograph.Hero
-import com.example.biograph.ListHeroAdapter
 
 class MainActivity : AppCompatActivity() {
 

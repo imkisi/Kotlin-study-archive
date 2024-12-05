@@ -1,4 +1,4 @@
-package com.example.biograph
+package com.example.lonetrail
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

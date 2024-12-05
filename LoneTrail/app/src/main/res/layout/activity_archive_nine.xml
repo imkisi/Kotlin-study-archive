@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArchiveNine">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="11dp"
+        android:background="@color/android:transparent">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:paddingTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:backgroundTint="@color/android:transparent"
+            android:src="@drawable/back"/>
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="55dp"
+            android:src="@drawable/app_logo"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="65dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="22dp">
+
+            <TextView
+                style="@style/H2"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_nine"/>
+
+            <TextView
+                style="@style/H1"
+                android:id="@+id/archive_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                tools:text="@string/title"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="17dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="5dp"
+                    android:background="#992E26"
+                    android:layout_gravity="center_horizontal"/>
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="5dp"
+                    android:background="#EBA93E"
+                    android:layout_gravity="center_horizontal"/>
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="5dp"
+                    android:background="#87C0AF"
+                    android:layout_gravity="center_horizontal"/>
+
+            </LinearLayout>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="wrap_content"
+                android:layout_height="214dp"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="20dp"
+                app:shapeAppearanceOverlay="@style/RoundedImageViewShape"
+                android:adjustViewBounds="true"
+                android:src="@drawable/sweat_dream"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginBottom="16dp"
+                android:background="#BDBDBD"/>
+
+            <TextView
+                style="@style/H3"
+                android:textColor="#F5F5E4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="22dp"
+                android:text="@string/d9"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

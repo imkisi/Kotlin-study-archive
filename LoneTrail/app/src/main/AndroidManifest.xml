@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -12,7 +12,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoneTrail"
         tools:ignore="LockedOrientationActivity"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name=".ArchiveTen"
+            android:exported="false" />
+        <activity
+            android:name=".ArchiveNine"
+            android:exported="false" />
+        <activity
+            android:name=".ArchiveEight"
+            android:exported="false" />
+        <activity
+            android:name=".ArchiveSeven"
+            android:exported="false" />
+        <activity
+            android:name=".ArchiveSIx"
+            android:exported="false" />
+        <activity
+            android:name=".ArchiveFive"
+            android:exported="false" />
+        <activity
+            android:name=".ArchiveFour"
+            android:exported="false" />
+        <activity
+            android:name=".ArchiveThree"
+            android:exported="false" />
+        <activity
+            android:name=".ArchiveTwo"
+            android:exported="false" />
+        <activity
+            android:name=".ArchiveOne"
+            android:exported="false" />
         <activity
             android:name=".CreatorProfile"
             android:exported="false" />
@@ -23,7 +53,7 @@
         <activity
             android:name=".SplashActivity"
             android:exported="true"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
