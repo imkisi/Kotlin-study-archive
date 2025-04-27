@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="headingOne">
+        <item name="android:textSize">36sp</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:layout_marginHorizontal">12dp</item>
+    </style>
+</resources>
