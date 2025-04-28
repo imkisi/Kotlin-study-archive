@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityThree">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginHorizontal="16dp"
+            android:textFontWeight="500"
+            android:textColor="#AEAEAC"
+            style="@style/about"
+            android:text="Luas Persegi"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Panjang"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout.HintText"
+            app:boxBackgroundMode="none">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/squareLength"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="24sp"
+                android:textColor="#AEAEAC"
+                android:textStyle="bold"
+                android:text="@string/defaultValue"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Lebar"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout.HintText"
+            app:boxBackgroundMode="none">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/squareWidth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="24sp"
+                android:textColor="#AEAEAC"
+                android:textStyle="bold"
+                android:text="@string/defaultValue"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textFontWeight="600"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="16dp"
+            style="@style/about"
+            android:text="Luas Persegi"/>
+
+        <TextView
+            android:id="@+id/squareOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="34dp"
+            android:textFontWeight="600"
+            style="@style/HeadingTwo"
+            android:textColor="#AEAEAC"
+            android:text="@string/defaultValue"/>
+
+        <Button
+            android:id="@+id/squareBtn"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="24dp"
+            android:layout_height="56dp"
+            style="@style/primaryBtn"
+            android:text="@string/button"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="30dp"
+            android:background="#AEAEAC"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:textFontWeight="500"
+            android:textColor="#AEAEAC"
+            style="@style/about"
+            android:text="Luas Segitiga"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Alas"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout.HintText"
+            app:boxBackgroundMode="none">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/triangBase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="24sp"
+                android:textColor="#AEAEAC"
+                android:textStyle="bold"
+                android:text="@string/defaultValue"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Tinggi"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout.HintText"
+            app:boxBackgroundMode="none">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/triangleHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="24sp"
+                android:textColor="#AEAEAC"
+                android:textStyle="bold"
+                android:text="@string/defaultValue"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textFontWeight="600"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="16dp"
+            style="@style/about"
+            android:text="Luas Segitiga"/>
+
+        <TextView
+            android:id="@+id/triangleOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="34dp"
+            android:textFontWeight="600"
+            style="@style/HeadingTwo"
+            android:textColor="#AEAEAC"
+            android:text="@string/defaultValue"/>
+
+        <Button
+            android:id="@+id/triangleBtn"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginBottom="70dp"
+            android:layout_height="56dp"
+            style="@style/primaryBtn"
+            android:text="@string/button"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
