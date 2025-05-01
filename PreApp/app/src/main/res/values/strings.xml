@@ -10,12 +10,12 @@
     <string name="widget.title.three">Tugas - 03</string>
     <string name="widget.title.four">Tugas - 04</string>
     <string name="widget.subject.one">Halo Dunia</string>
-    <string name="widget.subject.two">Tombol Dengan Intent</string>
-    <string name="widget.subject.three">Perhitungan Sederhana</string>
+    <string name="widget.subject.two">Tombol</string>
+    <string name="widget.subject.three">Luas dan Volume</string>
     <string name="widget.subject.four">Hello World</string>
 
     <string name="welcome">Selamat Datang di Universitas STEKOM</string>
-    <string name="address">Jl. Majapahit No 605 Semarang\nTelp: 024–6170144, 024-7600452\nWebsite www.stekom.ac.id</string>
+    <string name="address">Jl. Majapahit No 605 Semarang Telp: 024–6170144, 024-7600452 Website www.stekom.ac.id</string>
     <string name="nim">NIM : 1123100125</string>
     <string name="name">Nama : Bagas Dwi Anggoro</string>
     <string name="kelas">Kelas : TI-23</string>

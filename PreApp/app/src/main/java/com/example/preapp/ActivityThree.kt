@@ -38,7 +38,7 @@ class ActivityThree : AppCompatActivity() {
             val base = triangBaseEditText.text.toString().toDoubleOrNull() ?: 0.0
             val height = triangleHeightEditText.text.toString().toDoubleOrNull() ?: 0.0
 
-            val area = 0.5 * base * height
+            val area = (1.0 / 3.0) * 3.14 * base * base * height
 
             triangleOutputTextView.text = area.toString()
 
