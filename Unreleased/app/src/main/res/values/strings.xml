@@ -17,4 +17,8 @@
     <string name="text_description_fourth">A layout composable that places its children in a vertical sequence.</string>
     <string name="text_title_fourth">Column composable</string>
     <string name="title_activity_name_card">NameCard</string>
+    <string name="profile_name">Bagas Dwi Anggoro</string>
+    <string name="profile_title">Android developer</string>
+    <string name="profile_phone">(+62)81234567890</string>
+    <string name="profile_mail">kisicreativemed@gmail.com</string>
 </resources>
