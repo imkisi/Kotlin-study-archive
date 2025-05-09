@@ -1,1 +1,1 @@
-Lear Basic Jetpack Compose
+Learn Basic Jetpack Compose
