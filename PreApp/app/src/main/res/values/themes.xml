@@ -79,4 +79,9 @@
         <item name="android:insetBottom">0dp</item>
     </style>
 
+    <style name="roundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20%</item>
+    </style>
+
 </resources>

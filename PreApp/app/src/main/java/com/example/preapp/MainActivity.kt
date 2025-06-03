@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
         val cardOne = findViewById<CardView>(R.id.cardOne)
         val cardTwo = findViewById<CardView>(R.id.cardTwo)
         val cardThree = findViewById<CardView>(R.id.cardThree)
+        val cardFour = findViewById<CardView>(R.id.cardFour)
 
         githubButton.setOnClickListener {
             val url = "https://github.com/imkisi"
@@ -68,6 +69,10 @@ class MainActivity : AppCompatActivity() {
         }
         cardThree.setOnClickListener {
             val intent = Intent(this, ActivityThree::class.java)
+            startActivity(intent)
+        }
+        cardFour.setOnClickListener {
+            val intent = Intent(this, ActivityFour::class.java)
             startActivity(intent)
         }
 
